@@ -28,6 +28,116 @@
   color: #61dafb;
 }
 
+.list{
+  /* width:100%; */
+  height: 40px;
+  padding: 10px;
+  background-color: #61dafb;
+  padding-bottom: 10px;
+}
+
+.list ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+ 
+}
+
+.list ul li a {
+  text-decoration: none; 
+  padding-right: 40px;
+
+}
+.list ul li a:hover {
+ color: brown;
+
+}
+
+.add-form {
+  margin: 50px 50px;
+  width: auto;
+ }
+ .add-form form input{
+  width: 95%;
+  padding: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  
+  
+ }
+ input:focus{
+  outline: 3px solid skyblue;
+ }
+ label{
+   padding-left: 4px;
+ }
+ h2{
+   padding-left: 80px;
+ }
+ .home {
+  width: 300px;
+  margin: 50px auto;
+}
+ 
+form button{
+   background-color: skyblue;
+   color: black;
+   border: none;
+   padding: 10px;
+   margin-top: 20px;
+   border-radius: 5px;
+   font-size: 15px;
+ }
+
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;  
+  width: 50%;
+  margin: 50px auto;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#customers td{
+  text-align: center;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: skyblue;
+  color: black;
+}
+.dell-btn{
+  background-color: red;
+  color: black;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.edit-btn{
+  background-color: skyblue;
+  color: black;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
